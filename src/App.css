@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header input {
+  padding: 10px;
+  border-radius: 20px;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(7, 108, 202);
+  cursor: pointer;
+}
+.AllDo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.singleTodo {
+  background-color: grey;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 15px;
+  justify-content: space-between;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
